@@ -1,6 +1,7 @@
 # Ant Simulation
 
-This project simulates a system of ants that search for sugar and transport it to a nest by following sugar and nest pheromones. The grid size is 20x20, and each cell can be empty, contain an ant, sugar, or a nest element.
+This project simulates a system of ants that search for sugar and transport it to a nest by following sugar and nest pheromones. Each cell of the grid can be empty, contain an ant, sugar, or a nest element.
+
 Ant Behavior
 
 Ants move randomly in search of sugar. When they find sugar pheromones, they move along the pheromone trail while avoiding other ants until they reach the sugar. They carry some of the sugar while leaving sugar pheromones along their path. Once they are next to the nest, they deposit the sugar and leave sugar pheromones on the path back to the sugar pile.
